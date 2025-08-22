@@ -15,3 +15,6 @@ artifacts:
   base-directory: dist/my-angular-project
   files:
     - '**/*'
+cache:
+  paths:
+    - node_modules/**/*
