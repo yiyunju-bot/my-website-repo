@@ -31,10 +31,10 @@ export class CalculatorComponent implements OnInit {
     const operator = this.calculatorForm.get('operator').value;
 
     // Calculate according to the operator
-    switch ( operator ) {
+    switch (operator) {
       case '+': {
 
-        this.result =  firstInput + secondInput;
+        this.result = firstInput / secondInput;
         break;
 
       }
