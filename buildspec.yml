@@ -15,9 +15,10 @@ phases:
     finally:
       - echo This is the finally block execution!
 artifacts:
-  base-directory: dist/my-angular-project
   files:
-    - '**/*'
+    - 'dist/test-angular-project/**/*'
+    - appspec.yml
+    - 'deploy-scripts/**/*'
 cache:
   paths:
     - node_modules/**/*
